@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6038c2-6f19-4f96-ada2-35932623da81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/02 Single Responsibility.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/src/com/daugherty/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/IInterestCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/IInterestRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRuleDefault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRuleOverHalfMillion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRuleOverOneMillion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRulePlatinum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRulePreTwentyTen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/02 Single Responsibility.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../My Answers/01 Single Responsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../My Answers/01 Single Responsibility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/src/com/daugherty/CustomerAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/src/com/daugherty/CustomerAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/Cafe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/Cafe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/main/java/com/monotonic/testing/m2/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/main/java/com/monotonic/testing/m2/Cafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/test/java/com/monotonic/testing/com/monotonic/testing/m2/CafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/test/java/com/monotonic/testing/com/monotonic/testing/m2/CafeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,13 +73,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548078049884" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../03 Open Closed" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,7 +109,7 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

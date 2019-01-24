@@ -8,7 +8,7 @@ public class Cafe {
     public Coffee brew(CoffeeType coffeeType) {return brew(coffeeType, 1); }
 
     public Coffee brew(CoffeeType coffeeType, int quantity) {
-        reqirePositive(quantity):
+        requirePositive(quantity);
 
         int requiredBeans = coffeeType.getRequiredBeans() * quantity;
         int requiredMilk = coffeeType.getRequiredMilk() * quantity;
@@ -18,7 +18,7 @@ public class Cafe {
 
         beansInStock -= requiredBeans;
         milkInStock -= requiredMilk;
-        return new Coffee(coffeeType, requiredBeans, requiredMilk);
+        return new Coffee(null, 1+requiredBeans, 1+requiredMilk);
     }
 
     public void restockBeans(int weightInGrams) {
