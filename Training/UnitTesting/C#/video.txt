@@ -1,0 +1,3 @@
+https://www.pluralsight.com/paths/csharp
+
+Watch ‘Defensive Coding in C#’

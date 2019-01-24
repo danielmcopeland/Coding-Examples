@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bee4f9b4-7819-423c-bf52-77a5b4f9525f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monotonic/testing/m2/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monotonic/testing/m2/Cafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monotonic/testing/m2/CoffeeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monotonic/testing/m2/CoffeeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monotonic/testing/m2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monotonic/testing/m2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/monotonic/testing/com/monotonic/testing/m2/CafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monotonic/testing/com/monotonic/testing/m2/CafeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Training/SOLID Principles/Java/Exercises/My Answers/04 Open Closed/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Training/SOLID Principles/Java/Exercises/My Answers/04 Open Closed/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -163,7 +158,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548351771535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548364429425" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Training/SOLID Principles/Java/Exercises/My Answers/04 Open Closed" />
   </component>
@@ -299,7 +294,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -310,7 +304,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4305949" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4305949" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

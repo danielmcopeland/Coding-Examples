@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b79b0e0b-24aa-4ec4-9bb1-ed97211de38b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/out/production/Cafe/main/java/com/monotonic/testing/m2/Cafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/out/production/Cafe/main/java/com/monotonic/testing/m2/Cafe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/out/production/Cafe/main/java/com/monotonic/testing/m2/CoffeeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/out/production/Cafe/main/java/com/monotonic/testing/m2/CoffeeType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/out/production/Cafe/test/java/com/monotonic/testing/com/monotonic/testing/m2/CafeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/out/production/Cafe/test/java/com/monotonic/testing/com/monotonic/testing/m2/CafeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/main/java/com/monotonic/testing/m2/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/main/java/com/monotonic/testing/m2/Cafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/main/java/com/monotonic/testing/m2/CoffeeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/main/java/com/monotonic/testing/m2/CoffeeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/main/java/com/monotonic/testing/m2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/main/java/com/monotonic/testing/m2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/test/java/com/monotonic/testing/com/monotonic/testing/m2/CafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/src/test/java/com/monotonic/testing/com/monotonic/testing/m2/CafeTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b79b0e0b-24aa-4ec4-9bb1-ed97211de38b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="525" />
     <option name="y" value="-37" />
     <option name="width" value="1223" />
@@ -198,10 +189,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15100671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
