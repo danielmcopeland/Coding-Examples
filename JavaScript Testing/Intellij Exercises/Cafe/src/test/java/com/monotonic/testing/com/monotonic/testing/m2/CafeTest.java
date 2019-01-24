@@ -3,53 +3,75 @@ import main.java.com.monotonic.testing.m2.Cafe;
 import main.java.com.monotonic.testing.m2.Coffee;
 import main.java.com.monotonic.testing.m2.CoffeeType;
 
-
-import jdk.swing.interop.SwingInterOpUtils;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 public class CafeTest {
-    // can brew espresso
+
+    public static final int ESPRESSO_BEANS = CoffeeType.Espresso.getRequiredBeans();
+    public static final int LATTE_BEANS = CoffeeType.Latte.getRequiredBeans();
+    public static final int NO_MILK = 0;
+    public static final int NO_BEANS = 0;
+
+    private Cafe cafe;
+
+    @Before
+    public void before() {
+        cafe = new Cafe();
+    }
+
     @Test
     public void canBrewEspresso() {
-        Cafe cafe = new Cafe();
-        cafe.restockBeans(7);
+        withBeans();
         Coffee coffee = cafe.brew(CoffeeType.Espresso);
 
         Assert.assertEquals("Wrong CoffeeType", CoffeeType.Espresso, coffee.getType());
-        Assert.assertEquals("Wrong amount of milk",0, coffee.getMilk());
-        Assert.assertEquals("Wrong number of beans", 7, coffee.getBeans());
-
+        Assert.assertEquals("Wrong amount of milk", NO_MILK, coffee.getMilk());
+        Assert.assertEquals("Wrong number of beans", ESPRESSO_BEANS, coffee.getBeans());
     }
+
     @Test
     public void canBrewLatte() {
-
-        Cafe cafe = new Cafe();
-        cafe.restockBeans(7);
+        withBeans();
         cafe.restockMilk(227);
 
         Coffee coffee = cafe.brew(CoffeeType.Latte);
 
-        Assert.assertEquals(CoffeeType.Latte, coffee.getType());
-        Assert.assertEquals(227, coffee.getMilk());
-        Assert.assertEquals(7, coffee.getBeans());
+        Assert.assertEquals("Wrong CoffeeType",CoffeeType.Latte, coffee.getType());
+        Assert.assertEquals("Wrong amount of milk",227, coffee.getMilk());
+        Assert.assertEquals("Wrong number of beans", LATTE_BEANS, coffee.getBeans());
     }
+
     @Test
     public void brewingEspressoConsumesBeans() {
-        Cafe cafe = new Cafe();
-        cafe.restockBeans(7);
+        withBeans();
 
         Coffee coffee = cafe.brew(CoffeeType.Espresso);
 
-        Assert.assertEquals(0, cafe.getBeansInStock());
+        Assert.assertEquals(NO_BEANS, cafe.getBeansInStock());
     }
+
     @Test(expected = IllegalStateException.class)
     public void lattesRequireMilk() {
-        Cafe cafe = new Cafe();
-        cafe.restockBeans(7);
+        withBeans();
 
         Coffee coffee = cafe.brew(CoffeeType.Latte);
+    }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void mustRestockBeans() {
+        cafe.restockBeans(NO_BEANS);
+    }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void mustRestockMilk() {
+        Cafe cafe = new Cafe();
+
+        cafe.restockMilk(NO_MILK);
+    }
+
+    private void withBeans() {
+        cafe.restockBeans(ESPRESSO_BEANS);
     }
 }

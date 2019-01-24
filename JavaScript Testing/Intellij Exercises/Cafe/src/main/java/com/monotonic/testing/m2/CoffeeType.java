@@ -1,7 +1,7 @@
 package main.java.com.monotonic.testing.m2;
 
 public enum CoffeeType {
-    Espresso(7, 0),
+    Espresso(8, 0),
     Latte(7, 227),
     FilterCoffee(10, 0);
 
