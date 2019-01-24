@@ -1,0 +1,5 @@
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\UserClass\bin\Debug\UserClass.exe.config
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\UserClass\bin\Debug\UserClass.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\UserClass\bin\Debug\UserClass.pdb
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\UserClass\obj\Debug\UserClass.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\UserClass\obj\Debug\UserClass.pdb

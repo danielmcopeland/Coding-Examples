@@ -1,0 +1,21 @@
+﻿Create the geekiest calculator watch ever, following these steps:
+1.	Structure your code in folders. Create a Time folder to store our time-related interfaces, 
+	a Math folder to store math-oriented interfaces, and a Gadgets folder to store
+	the calculator watch classes.
+2.	Create the interface ‘IWatch’ that exposes a single method named ‘getUNIXEpochTime’, that receives no 
+	parameters, and returns a long with the Unix Epoch Time.
+3.	Create the interface ‘ICalculator’ that exposes a single method named ‘calculateAdd’, which receives two
+	int parameters, ‘numberOne’ and ‘numberTwo’, and returns an int with its sum.
+4.	Create the ‘CalculatorWatch’ class, that implements both interfaces.
+	
+	Hint: (long)(DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalSeconds returns current Epoch Time as a long.
+
+	Example:
+	CalculatorWatch calculatorWatch = new CalculatorWatch();
+
+	int addedNumbers = calculatorWatch.CalculateAdd(2, 2);
+	long currentUNIXTime = calculatorWatch.GetUNIXEpochTime();
+
+	Console.WriteLine("The result of the addition is " + addedNumbers + " and the current UNIX time is " + 
+						currentUNIXTime);
+	// Prints: ‘The result of the addition is 4 and the current UNIX time is 1467411884801’

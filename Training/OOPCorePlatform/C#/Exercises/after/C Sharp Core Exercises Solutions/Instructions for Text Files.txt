@@ -1,0 +1,15 @@
+﻿Text for InputFile1.txt
+
+File 1 Line 1
+File 1 Line 2
+File 1 Line 3
+File 1 Line 4
+File 1 Line 5
+
+Text for InputFiles2.txt
+
+File 2 Line 1
+File 2 Line 2
+File 2 Line 3
+File 2 Line 4
+File 2 Line 5

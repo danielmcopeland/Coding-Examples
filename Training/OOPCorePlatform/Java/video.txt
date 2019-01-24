@@ -1,0 +1,3 @@
+https://www.pluralsight.com/courses/java-fundamentals-core-platform
+
+All videos except multithreading and concurrency

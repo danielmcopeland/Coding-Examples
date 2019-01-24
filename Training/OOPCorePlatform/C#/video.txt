@@ -1,0 +1,3 @@
+https://www.pluralsight.com/paths/csharp
+
+Under Intermediate, watch ‘C# Interfaces’ and ‘Object-Oriented Programming Fundamentals in C#’

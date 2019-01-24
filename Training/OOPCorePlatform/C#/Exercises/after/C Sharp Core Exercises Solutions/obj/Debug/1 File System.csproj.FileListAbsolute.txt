@@ -1,0 +1,8 @@
+c:\users\krb0916\documents\visual studio 2017\Projects\C Sharp Core Exercises\C Sharp Core Exercises\obj\Debug\1 File System.csprojResolveAssemblyReference.cache
+c:\users\krb0916\documents\visual studio 2017\Projects\C Sharp Core Exercises\C Sharp Core Exercises\bin\Debug\C Sharp Core Exercises.exe.config
+c:\users\krb0916\documents\visual studio 2017\Projects\C Sharp Core Exercises\C Sharp Core Exercises\bin\Debug\C Sharp Core Exercises.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\C Sharp Core Exercises\C Sharp Core Exercises\bin\Debug\C Sharp Core Exercises.pdb
+c:\users\krb0916\documents\visual studio 2017\Projects\C Sharp Core Exercises\C Sharp Core Exercises\obj\Debug\C Sharp Core Exercises.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\C Sharp Core Exercises\C Sharp Core Exercises\obj\Debug\C Sharp Core Exercises.pdb
+c:\users\krb0916\documents\visual studio 2017\Projects\C Sharp Core Exercises\C Sharp Core Exercises\obj\Debug\C_Sharp_Core_Exercises.Properties.Resources.resources
+c:\users\krb0916\documents\visual studio 2017\Projects\C Sharp Core Exercises\C Sharp Core Exercises\obj\Debug\1 File System.csproj.GenerateResource.Cache

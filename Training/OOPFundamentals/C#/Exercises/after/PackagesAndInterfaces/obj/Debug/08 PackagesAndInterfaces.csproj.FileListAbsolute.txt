@@ -1,0 +1,6 @@
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\PackagesAndInterfaces\obj\Debug\08 PackagesAndInterfaces.csprojResolveAssemblyReference.cache
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\PackagesAndInterfaces\bin\Debug\PackagesAndInterfaces.exe.config
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\PackagesAndInterfaces\bin\Debug\PackagesAndInterfaces.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\PackagesAndInterfaces\bin\Debug\PackagesAndInterfaces.pdb
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\PackagesAndInterfaces\obj\Debug\PackagesAndInterfaces.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\PackagesAndInterfaces\obj\Debug\PackagesAndInterfaces.pdb

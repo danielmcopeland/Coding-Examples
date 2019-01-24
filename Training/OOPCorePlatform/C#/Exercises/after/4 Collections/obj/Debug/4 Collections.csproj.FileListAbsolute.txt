@@ -1,0 +1,5 @@
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\4 Collections\bin\Debug\4 Collections.exe.config
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\4 Collections\bin\Debug\4 Collections.exe
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\4 Collections\bin\Debug\4 Collections.pdb
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\4 Collections\obj\Debug\4 Collections.exe
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\4 Collections\obj\Debug\4 Collections.pdb

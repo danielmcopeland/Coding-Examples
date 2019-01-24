@@ -1,0 +1,6 @@
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\2 Formatting\bin\Debug\2 Formatting.exe.config
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\2 Formatting\bin\Debug\2 Formatting.exe
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\2 Formatting\bin\Debug\2 Formatting.pdb
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\2 Formatting\obj\Debug\2 Formatting.exe
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\2 Formatting\obj\Debug\2 Formatting.pdb
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\2 Formatting\obj\Debug\2 Formatting.csprojResolveAssemblyReference.cache

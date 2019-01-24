@@ -1,0 +1,23 @@
+﻿Create an Employee class with:
+•	A private Integer (non-primitive) field named ‘idNumber’.
+•	A public method with no parameters called ‘getIdNumber’ that returns the ‘idNumber’ of the class.
+•	A constructor that takes one Integer parameter and saves its value in the ‘idNumber’ field.
+•	A public method with no parameters called ‘hasAdministratorRights’ that always returns ‘false’ for an Employee.
+•	A method overriding the ‘equals’ method of the base Object class, so two Employee objects can be compared in a specific way. We consider two Employee objects to be equal if the two of them have the same ‘idNumber’ value.
+
+Then create a Manager class that:
+•	Inherits from the ‘Employee’ class (a Manager is a special case of an Employee.)
+•	Overrides the ‘hasAdministratorRights’ method to always return true.
+
+Example:
+			Employee worker = new Employee(1);
+            Employee theBoss = new Manager(2);
+            Console.WriteLine("Are these employees the same? " + (worker.Equals(theBoss)));
+            // Prints ‘Are these employees the same? false’
+
+            Employee anEqualBoss = new Manager(2);
+            Console.WriteLine("Are these employees the same? " + (theBoss.Equals(anEqualBoss)));
+            // Prints ‘Are these employees the same? true’
+
+            Console.WriteLine("Has The Boss admin rights? " + (theBoss.HasAdministratorRights()));
+            // Prints ‘Has The Boss admin rights? true

@@ -1,0 +1,6 @@
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Exceptions\bin\Debug\Exceptions.exe.config
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Exceptions\bin\Debug\Exceptions.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Exceptions\bin\Debug\Exceptions.pdb
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Exceptions\obj\Debug\07 Exceptions.csprojResolveAssemblyReference.cache
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Exceptions\obj\Debug\Exceptions.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Exceptions\obj\Debug\Exceptions.pdb

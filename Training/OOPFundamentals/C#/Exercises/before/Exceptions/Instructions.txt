@@ -1,0 +1,25 @@
+﻿Create a custom Exception named ‘GlassOverflownException’ whose constructor takes one String parameter, ‘message’,
+containing a description about the cause of such exception. We will use these exceptions to represent the error
+situation of trying to fill up a glass with more water than it can hold.
+
+Create a class ‘Glass’ with:
+•	Two private float fields, ‘maxGallons’ and ‘currentGallons’, representing the maximum liquid capacity of the 
+	glass, and the current volume of liquid contained by the glass.
+•	A constructor that takes a single parameter ‘maxGallons’ and assigns it to the ‘maxGallons’ field.
+•	A public method ‘addWater’ that takes a single parameter ‘gallonsToAdd’, adds that value to the current gallons,
+	and throws a ‘GlassOverflownException’ if the added gallons, plus the current gallons, surpass the maximum
+	gallons that the glass can hold. Ideally, this exception would hold a descriptive message with the details
+	of the error.
+
+Example:
+Glass hugeGlass = new Glass(1.5f);
+
+try
+{
+    hugeGlass.AddWater(20f);
+} 
+catch(GlassOverflownException e) 
+{
+    Console.WriteLine(e);
+    // Prints com.daugherty.GlassOverflownException: glass capacity exceeded; you have spilt 18.5 gallons
+}

@@ -1,0 +1,6 @@
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\3 Regular Expressions\bin\Debug\3 Regular Expressions.exe.config
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\3 Regular Expressions\bin\Debug\3 Regular Expressions.exe
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\3 Regular Expressions\bin\Debug\3 Regular Expressions.pdb
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\3 Regular Expressions\obj\Debug\3 Regular Expressions.csprojResolveAssemblyReference.cache
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\3 Regular Expressions\obj\Debug\3 Regular Expressions.exe
+C:\Users\krb0916\Documents\Visual Studio 2017\Projects\C Sharp Core Exercises\3 Regular Expressions\obj\Debug\3 Regular Expressions.pdb

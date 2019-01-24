@@ -1,0 +1,40 @@
+
+
+Questions
+---------------
+What if I want to change how logging is done?
+What if I want to change how caching is done?
+What if I want to change how messages are stored (i.e. database, file, queue, memory)?
+
+
+
+Steps
+--------------
+
+Single Responsibility
+------------------------
+Extract logging into GlobalLogger
+Extract caching into MemoryCache
+Extract file storage
+
+Open closed
+-------------------------
+Add setLogger, setCache, setFileStore methods to enable to be extended (not preferred)
+
+
+Liskov
+--------------------------
+Example add a SqlDatabaseStore class
+Extract interface from FileStore into IStore
+Extract interface from MemoryCache into IDataCache
+Extract interface from GlobalLogger into ILogger
+
+Interface Segregation
+----------------------------
+Extract IStoreReader and IStoreWriter from IStore
+
+Dependency Inversion
+----------------------------
+Use constructor injection on MessageStore
+
+

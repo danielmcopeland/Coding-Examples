@@ -1,0 +1,5 @@
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Circle\bin\Debug\Circle.exe.config
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Circle\bin\Debug\Circle.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Circle\bin\Debug\Circle.pdb
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Circle\obj\Debug\Circle.exe
+c:\users\krb0916\documents\visual studio 2017\Projects\CSharp Exercises\Circle\obj\Debug\Circle.pdb

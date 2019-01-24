@@ -1,0 +1,76 @@
+﻿Given the following class representing an Item:
+public class Item {
+
+		private float _price;
+
+        public float Price
+        {
+            get
+            {
+                return _price;
+            }
+        }
+
+        public Item(float price)
+        {
+            _price = price;
+        }
+}
+
+And the following incomplete template of a new class, ‘ShoppingCart’:
+public class ShoppingCart {
+
+		private float _totalPrice;
+        private int _numberOfItems;
+
+         public float TotalPrice 
+		 { 
+		 get
+            {
+                return _totalPrice;
+            }
+        }
+
+        public int NumberOfItems 
+		{ 
+		get
+            {
+                return _numberOfItems;
+            }
+        }
+		
+}
+
+Add the following public methods, all named ‘AddItems’, to the ShoppingCart class (so they overload each other:)
+•	A method ‘AddItems’ that takes two parameters, a float ‘price’ and an int ‘numberOfItems’, and adds them to
+	the ‘totalPrice’ and ‘numberOfItems’ of the class.
+•	A method ‘AddItems’ that takes one parameter, a float ‘price’, and adds it to the totalPrice, increasing the
+	numberOfItems by one.
+•	A method ‘AddItems’ that takes one parameter, an Item object ‘item’, and adds its price to the totalPrice, 
+	increasing the numberOfItems by one.
+•	A method ‘AddItems’ that takes a variable number of parameters of type Item, addItems(param Item[] items) and adds 
+	their prices to the totalPrice, plus their number to numberOfItems.
+
+Then, using your completed class, invoke its methods completing the following main method in a Main class:
+public class Main {
+
+    public static void main(String[] args) {
+       ShoppingCart shoppingCart = new ShoppingCart();
+
+        Item item1 = new Item(10.5f);
+        Item item2 = new Item(20.75f);
+        Item item3 = new Item(9.99f);
+        Item item4 = new Item(14f);
+        Item item5 = new Item(100f);
+        Item item6 = new Item(55.5f);
+
+        // Add item1 individually
+        // Add the remaining items (item2, item3, item4, item5 and item6) in a single operation
+        // Add another item of price 33.5
+        // Add two items in a single operation, with a combined price of 50
+
+        System.out.println(shoppingCart.NumberOfItems + " items were added,"
+                + " with a total price of $" + shoppingCart.TotalPrice);
+    }
+}
+
