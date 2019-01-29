@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ee6b2b-2b00-4615-8cd8-96263e6e4e66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/02 Single Responsibility.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/src/com/daugherty/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/IInterestCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/IInterestRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRuleDefault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRuleOverHalfMillion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRuleOverOneMillion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRulePlatinum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/InterestRulePreTwentyTen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/02 Single Responsibility/02 Single Responsibility.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/03 Open Closed/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/03 Open Closed/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/03 Open Closed/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/03 Open Closed/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/03 Open Closed/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../after/03 Open Closed/03 Open Closed.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03 Open Closed.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../My Answers/01 Single Responsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../My Answers/01 Single Responsibility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/src/com/daugherty/CustomerAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My Answers/02 Single Responsibility/src/com/daugherty/CustomerAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../My Answers/03 Open Closed/src/com/daugherty/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01 Single Responsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01 Single Responsibility/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../JavaScript Testing/Intellij Exercises/Cafe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../UnitTesting/Java/Test Driven Development/Exercises/before/src/main/java/com/daugherty/bowling/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../UnitTesting/Java/Test Driven Development/Exercises/before/src/main/java/com/daugherty/bowling/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../UnitTesting/Java/Test Driven Development/Exercises/before/src/test/java/com/daugherty/bowling/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../UnitTesting/Java/Test Driven Development/Exercises/before/src/test/java/com/daugherty/bowling/GameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/daugherty/Account.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -59,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/daugherty/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -74,9 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2357" />
-    <option name="y" value="-25" />
-    <option name="width" value="976" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -85,6 +50,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,12 +74,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../after/03 Open Closed" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,10 +105,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -171,14 +136,14 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/daugherty/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/com/daugherty/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/daugherty/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/daugherty/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
