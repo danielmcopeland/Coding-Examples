@@ -1,0 +1,1235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="HTML Specification Documentation">
+    <meta name="author" content="Chris Marfia">
+    <link rel="icon" href="../../img/favicon.ico">
+    <title>Intro to Web Development - Part One</title>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <span class="navbar-brand col-sm-3 col-md-2 mr-0">Intro to Web Development Part Two</span>
+    </nav>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <nav id="outline" class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                            <ul class="nav flex-column ml-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../task-tracker.html">Task Tracker</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="../registration.html">Registration</a>
+                                    <ul class="nav flex-column ml-3">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" href="2.html">Step 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="3.html">Step 3</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="checkout.html">Checkout</a>
+                                            </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 pt-5">
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4 order-md-2 mb-4">
+                        <h4 class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-muted">Your cart</span>
+                            <span class="badge badge-secondary badge-pill">1</span>
+                        </h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                <div>
+                                    <h6 class="my-0">Product name</h6>
+                                    <small class="text-muted">Daugherty University</small>
+                                </div>
+                                <span class="text-muted">$100</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Total (USD)</span>
+                                <strong>$100</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 order-md-1">
+                        <form>
+
+                                <div class="card">
+                                    <h4 class="card-title">Contact Information</h4>
+                                    <div class="card-body">
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label for="regFirstName">First Name</label>
+                                                <input type="text" placeholder="First Name" class="form-control" id="regFirstName"></input>
+                                            </div>
+                                            <div class="form-group col-me-6">
+                                                <label for="regLastName">Last Name</label>
+                                                <input type="text" placeholder="Last Name" class="form-control" id="regLastName"></input>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="regEmail">Email</label>
+                                            <input type="email" placeholder="john.doe@sample.com" class="form-control" id="regEmail"></input>
+                                            <small>We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="regPhone">Phone Number</label>
+                                            <input type="tel"  class="form-control" id="regPhnone"></input>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="regAddress">Address</label>
+                                            <input type="text" placeholder="123 Main St" class="form-control" id="regAddress"></input>
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="regAddress2">Address2</label>
+                                                <input type="text" placeholder="Apartment, suite, floor, etc..." class="form-control" id="regAddress2"></input>
+                                            </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label for="regCountry">Country</label>
+                                                <select class="form-control" id="regCountry" name="locality">
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <label for="inputState">State</label>
+                                                <select id="inputState" class="form-control">
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label for="inputZip">Zip</label>
+                                                <input type="text" class="form-control" id="inputZip">
+                                            </div>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+
+                                </div>
+                            <!--
+                                == Build out form here ==
+
+                                First Name
+                                Last Name
+                                Email
+                                Phone Number
+                                Address
+                                Address 2 (optional)
+                                Country (country.json)
+                                State (state.json)
+                                Zip
+                                
+                                == Button / Actions ==
+                                Select Sessions
+                            -->
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+   
+    <script>
+        let dropdown = document.getElementById('regCountry');
+        dropdown.length = 0;
+
+        let defaultOption = document.createElement('option');
+        defaultOption.text = 'Choose Country/Province';
+
+        dropdown.add(defaultOption);
+        dropdown.selectedIndex = 0;
+        const data = [
+    {
+        "value": "AF",
+        "label": "Afghanistan"
+    },
+    {
+        "value": "AX",
+        "label": "Åland Islands"
+    },
+    {
+        "value": "AL",
+        "label": "Albania"
+    },
+    {
+        "value": "DZ",
+        "label": "Algeria"
+    },
+    {
+        "value": "AS",
+        "label": "American Samoa"
+    },
+    {
+        "value": "AD",
+        "label": "Andorra"
+    },
+    {
+        "value": "AO",
+        "label": "Angola"
+    },
+    {
+        "value": "AI",
+        "label": "Anguilla"
+    },
+    {
+        "value": "AQ",
+        "label": "Antarctica"
+    },
+    {
+        "value": "AG",
+        "label": "Antigua and Barbuda"
+    },
+    {
+        "value": "AR",
+        "label": "Argentina"
+    },
+    {
+        "value": "AM",
+        "label": "Armenia"
+    },
+    {
+        "value": "AW",
+        "label": "Aruba"
+    },
+    {
+        "value": "AU",
+        "label": "Australia"
+    },
+    {
+        "value": "AT",
+        "label": "Austria"
+    },
+    {
+        "value": "AZ",
+        "label": "Azerbaijan"
+    },
+    {
+        "value": "BS",
+        "label": "Bahamas"
+    },
+    {
+        "value": "BH",
+        "label": "Bahrain"
+    },
+    {
+        "value": "BD",
+        "label": "Bangladesh"
+    },
+    {
+        "value": "BB",
+        "label": "Barbados"
+    },
+    {
+        "value": "BY",
+        "label": "Belarus"
+    },
+    {
+        "value": "BE",
+        "label": "Belgium"
+    },
+    {
+        "value": "BZ",
+        "label": "Belize"
+    },
+    {
+        "value": "BJ",
+        "label": "Benin"
+    },
+    {
+        "value": "BM",
+        "label": "Bermuda"
+    },
+    {
+        "value": "BT",
+        "label": "Bhutan"
+    },
+    {
+        "value": "BO",
+        "label": "Bolivia"
+    },
+    {
+        "value": "BA",
+        "label": "Bosnia and Herzegovina"
+    },
+    {
+        "value": "BW",
+        "label": "Botswana"
+    },
+    {
+        "value": "BV",
+        "label": "Bouvet Island"
+    },
+    {
+        "value": "BR",
+        "label": "Brazil"
+    },
+    {
+        "value": "IO",
+        "label": "British Indian Ocean Territory"
+    },
+    {
+        "value": "BN",
+        "label": "Brunei Darussalam"
+    },
+    {
+        "value": "BG",
+        "label": "Bulgaria"
+    },
+    {
+        "value": "BF",
+        "label": "Burkina Faso"
+    },
+    {
+        "value": "BI",
+        "label": "Burundi"
+    },
+    {
+        "value": "KH",
+        "label": "Cambodia"
+    },
+    {
+        "value": "CM",
+        "label": "Cameroon"
+    },
+    {
+        "value": "CA",
+        "label": "Canada"
+    },
+    {
+        "value": "CV",
+        "label": "Cape Verde"
+    },
+    {
+        "value": "KY",
+        "label": "Cayman Islands"
+    },
+    {
+        "value": "CF",
+        "label": "Central African Republic"
+    },
+    {
+        "value": "TD",
+        "label": "Chad"
+    },
+    {
+        "value": "CL",
+        "label": "Chile"
+    },
+    {
+        "value": "CN",
+        "label": "China"
+    },
+    {
+        "value": "CX",
+        "label": "Christmas Island"
+    },
+    {
+        "value": "CC",
+        "label": "Cocos (Keeling) Islands"
+    },
+    {
+        "value": "CO",
+        "label": "Colombia"
+    },
+    {
+        "value": "KM",
+        "label": "Comoros"
+    },
+    {
+        "value": "CG",
+        "label": "Congo"
+    },
+    {
+        "value": "CD",
+        "label": "Congo, The Democratic Republic of the"
+    },
+    {
+        "value": "CK",
+        "label": "Cook Islands"
+    },
+    {
+        "value": "CR",
+        "label": "Costa Rica"
+    },
+    {
+        "value": "CI",
+        "label": "Cote D'Ivoire"
+    },
+    {
+        "value": "HR",
+        "label": "Croatia"
+    },
+    {
+        "value": "CU",
+        "label": "Cuba"
+    },
+    {
+        "value": "CY",
+        "label": "Cyprus"
+    },
+    {
+        "value": "CZ",
+        "label": "Czech Republic"
+    },
+    {
+        "value": "DK",
+        "label": "Denmark"
+    },
+    {
+        "value": "DJ",
+        "label": "Djibouti"
+    },
+    {
+        "value": "DM",
+        "label": "Dominica"
+    },
+    {
+        "value": "DO",
+        "label": "Dominican Republic"
+    },
+    {
+        "value": "EC",
+        "label": "Ecuador"
+    },
+    {
+        "value": "EG",
+        "label": "Egypt"
+    },
+    {
+        "value": "SV",
+        "label": "El Salvador"
+    },
+    {
+        "value": "GQ",
+        "label": "Equatorial Guinea"
+    },
+    {
+        "value": "ER",
+        "label": "Eritrea"
+    },
+    {
+        "value": "EE",
+        "label": "Estonia"
+    },
+    {
+        "value": "ET",
+        "label": "Ethiopia"
+    },
+    {
+        "value": "FK",
+        "label": "Falkland Islands (Malvinas)"
+    },
+    {
+        "value": "FO",
+        "label": "Faroe Islands"
+    },
+    {
+        "value": "FJ",
+        "label": "Fiji"
+    },
+    {
+        "value": "FI",
+        "label": "Finland"
+    },
+    {
+        "value": "FR",
+        "label": "France"
+    },
+    {
+        "value": "GF",
+        "label": "French Guiana"
+    },
+    {
+        "value": "PF",
+        "label": "French Polynesia"
+    },
+    {
+        "value": "TF",
+        "label": "French Southern Territories"
+    },
+    {
+        "value": "GA",
+        "label": "Gabon"
+    },
+    {
+        "value": "GM",
+        "label": "Gambia"
+    },
+    {
+        "value": "GE",
+        "label": "Georgia"
+    },
+    {
+        "value": "DE",
+        "label": "Germany"
+    },
+    {
+        "value": "GH",
+        "label": "Ghana"
+    },
+    {
+        "value": "GI",
+        "label": "Gibraltar"
+    },
+    {
+        "value": "GR",
+        "label": "Greece"
+    },
+    {
+        "value": "GL",
+        "label": "Greenland"
+    },
+    {
+        "value": "GD",
+        "label": "Grenada"
+    },
+    {
+        "value": "GP",
+        "label": "Guadeloupe"
+    },
+    {
+        "value": "GU",
+        "label": "Guam"
+    },
+    {
+        "value": "GT",
+        "label": "Guatemala"
+    },
+    {
+        "value": "GG",
+        "label": "Guernsey"
+    },
+    {
+        "value": "GN",
+        "label": "Guinea"
+    },
+    {
+        "value": "GW",
+        "label": "Guinea-Bissau"
+    },
+    {
+        "value": "GY",
+        "label": "Guyana"
+    },
+    {
+        "value": "HT",
+        "label": "Haiti"
+    },
+    {
+        "value": "HM",
+        "label": "Heard Island and Mcdonald Islands"
+    },
+    {
+        "value": "VA",
+        "label": "Holy See (Vatican City State)"
+    },
+    {
+        "value": "HN",
+        "label": "Honduras"
+    },
+    {
+        "value": "HK",
+        "label": "Hong Kong"
+    },
+    {
+        "value": "HU",
+        "label": "Hungary"
+    },
+    {
+        "value": "IS",
+        "label": "Iceland"
+    },
+    {
+        "value": "IN",
+        "label": "India"
+    },
+    {
+        "value": "ID",
+        "label": "Indonesia"
+    },
+    {
+        "value": "IR",
+        "label": "Iran, Islamic Republic Of"
+    },
+    {
+        "value": "IQ",
+        "label": "Iraq"
+    },
+    {
+        "value": "IE",
+        "label": "Ireland"
+    },
+    {
+        "value": "IM",
+        "label": "Isle of Man"
+    },
+    {
+        "value": "IL",
+        "label": "Israel"
+    },
+    {
+        "value": "IT",
+        "label": "Italy"
+    },
+    {
+        "value": "JM",
+        "label": "Jamaica"
+    },
+    {
+        "value": "JP",
+        "label": "Japan"
+    },
+    {
+        "value": "JE",
+        "label": "Jersey"
+    },
+    {
+        "value": "JO",
+        "label": "Jordan"
+    },
+    {
+        "value": "KZ",
+        "label": "Kazakhstan"
+    },
+    {
+        "value": "KE",
+        "label": "Kenya"
+    },
+    {
+        "value": "KI",
+        "label": "Kiribati"
+    },
+    {
+        "value": "KP",
+        "label": "Korea, Democratic People's Republic of"
+    },
+    {
+        "value": "KR",
+        "label": "Korea, Republic of"
+    },
+    {
+        "value": "KW",
+        "label": "Kuwait"
+    },
+    {
+        "value": "KG",
+        "label": "Kyrgyzstan"
+    },
+    {
+        "value": "LA",
+        "label": "Lao People's Democratic Republic"
+    },
+    {
+        "value": "LV",
+        "label": "Latvia"
+    },
+    {
+        "value": "LB",
+        "label": "Lebanon"
+    },
+    {
+        "value": "LS",
+        "label": "Lesotho"
+    },
+    {
+        "value": "LR",
+        "label": "Liberia"
+    },
+    {
+        "value": "LY",
+        "label": "Libyan Arab Jamahiriya"
+    },
+    {
+        "value": "LI",
+        "label": "Liechtenstein"
+    },
+    {
+        "value": "LT",
+        "label": "Lithuania"
+    },
+    {
+        "value": "LU",
+        "label": "Luxembourg"
+    },
+    {
+        "value": "MO",
+        "label": "Macao"
+    },
+    {
+        "value": "MK",
+        "label": "Macedonia, The Former Yugoslav Republic of"
+    },
+    {
+        "value": "MG",
+        "label": "Madagascar"
+    },
+    {
+        "value": "MW",
+        "label": "Malawi"
+    },
+    {
+        "value": "MY",
+        "label": "Malaysia"
+    },
+    {
+        "value": "MV",
+        "label": "Maldives"
+    },
+    {
+        "value": "ML",
+        "label": "Mali"
+    },
+    {
+        "value": "MT",
+        "label": "Malta"
+    },
+    {
+        "value": "MH",
+        "label": "Marshall Islands"
+    },
+    {
+        "value": "MQ",
+        "label": "Martinique"
+    },
+    {
+        "value": "MR",
+        "label": "Mauritania"
+    },
+    {
+        "value": "MU",
+        "label": "Mauritius"
+    },
+    {
+        "value": "YT",
+        "label": "Mayotte"
+    },
+    {
+        "value": "MX",
+        "label": "Mexico"
+    },
+    {
+        "value": "FM",
+        "label": "Micronesia, Federated States of"
+    },
+    {
+        "value": "MD",
+        "label": "Moldova, Republic of"
+    },
+    {
+        "value": "MC",
+        "label": "Monaco"
+    },
+    {
+        "value": "MN",
+        "label": "Mongolia"
+    },
+    {
+        "value": "MS",
+        "label": "Montserrat"
+    },
+    {
+        "value": "MA",
+        "label": "Morocco"
+    },
+    {
+        "value": "MZ",
+        "label": "Mozambique"
+    },
+    {
+        "value": "MM",
+        "label": "Myanmar"
+    },
+    {
+        "value": "NA",
+        "label": "Namibia"
+    },
+    {
+        "value": "NR",
+        "label": "Nauru"
+    },
+    {
+        "value": "NP",
+        "label": "Nepal"
+    },
+    {
+        "value": "NL",
+        "label": "Netherlands"
+    },
+    {
+        "value": "AN",
+        "label": "Netherlands Antilles"
+    },
+    {
+        "value": "NC",
+        "label": "New Caledonia"
+    },
+    {
+        "value": "NZ",
+        "label": "New Zealand"
+    },
+    {
+        "value": "NI",
+        "label": "Nicaragua"
+    },
+    {
+        "value": "NE",
+        "label": "Niger"
+    },
+    {
+        "value": "NG",
+        "label": "Nigeria"
+    },
+    {
+        "value": "NU",
+        "label": "Niue"
+    },
+    {
+        "value": "NF",
+        "label": "Norfolk Island"
+    },
+    {
+        "value": "MP",
+        "label": "Northern Mariana Islands"
+    },
+    {
+        "value": "NO",
+        "label": "Norway"
+    },
+    {
+        "value": "OM",
+        "label": "Oman"
+    },
+    {
+        "value": "PK",
+        "label": "Pakistan"
+    },
+    {
+        "value": "PW",
+        "label": "Palau"
+    },
+    {
+        "value": "PS",
+        "label": "Palestinian Territory, Occupied"
+    },
+    {
+        "value": "PA",
+        "label": "Panama"
+    },
+    {
+        "value": "PG",
+        "label": "Papua New Guinea"
+    },
+    {
+        "value": "PY",
+        "label": "Paraguay"
+    },
+    {
+        "value": "PE",
+        "label": "Peru"
+    },
+    {
+        "value": "PH",
+        "label": "Philippines"
+    },
+    {
+        "value": "PN",
+        "label": "Pitcairn"
+    },
+    {
+        "value": "PL",
+        "label": "Poland"
+    },
+    {
+        "value": "PT",
+        "label": "Portugal"
+    },
+    {
+        "value": "PR",
+        "label": "Puerto Rico"
+    },
+    {
+        "value": "QA",
+        "label": "Qatar"
+    },
+    {
+        "value": "RE",
+        "label": "Reunion"
+    },
+    {
+        "value": "RO",
+        "label": "Romania"
+    },
+    {
+        "value": "RU",
+        "label": "Russian Federation"
+    },
+    {
+        "value": "RW",
+        "label": "Rwanda"
+    },
+    {
+        "value": "SH",
+        "label": "Saint Helena"
+    },
+    {
+        "value": "KN",
+        "label": "Saint Kitts and Nevis"
+    },
+    {
+        "value": "LC",
+        "label": "Saint Lucia"
+    },
+    {
+        "value": "PM",
+        "label": "Saint Pierre and Miquelon"
+    },
+    {
+        "value": "VC",
+        "label": "Saint Vincent and the Grenadines"
+    },
+    {
+        "value": "WS",
+        "label": "Samoa"
+    },
+    {
+        "value": "SM",
+        "label": "San Marino"
+    },
+    {
+        "value": "ST",
+        "label": "Sao Tome and Principe"
+    },
+    {
+        "value": "SA",
+        "label": "Saudi Arabia"
+    },
+    {
+        "value": "SN",
+        "label": "Senegal"
+    },
+    {
+        "value": "CS",
+        "label": "Serbia and Montenegro"
+    },
+    {
+        "value": "SC",
+        "label": "Seychelles"
+    },
+    {
+        "value": "SL",
+        "label": "Sierra Leone"
+    },
+    {
+        "value": "SG",
+        "label": "Singapore"
+    },
+    {
+        "value": "SK",
+        "label": "Slovakia"
+    },
+    {
+        "value": "SI",
+        "label": "Slovenia"
+    },
+    {
+        "value": "SB",
+        "label": "Solomon Islands"
+    },
+    {
+        "value": "SO",
+        "label": "Somalia"
+    },
+    {
+        "value": "ZA",
+        "label": "South Africa"
+    },
+    {
+        "value": "GS",
+        "label": "South Georgia and the South Sandwich Islands"
+    },
+    {
+        "value": "ES",
+        "label": "Spain"
+    },
+    {
+        "value": "LK",
+        "label": "Sri Lanka"
+    },
+    {
+        "value": "SD",
+        "label": "Sudan"
+    },
+    {
+        "value": "SR",
+        "label": "Surilabel"
+    },
+    {
+        "value": "SJ",
+        "label": "Svalbard and Jan Mayen"
+    },
+    {
+        "value": "SZ",
+        "label": "Swaziland"
+    },
+    {
+        "value": "SE",
+        "label": "Sweden"
+    },
+    {
+        "value": "CH",
+        "label": "Switzerland"
+    },
+    {
+        "value": "SY",
+        "label": "Syrian Arab Republic"
+    },
+    {
+        "value": "TW",
+        "label": "Taiwan"
+    },
+    {
+        "value": "TJ",
+        "label": "Tajikistan"
+    },
+    {
+        "value": "TZ",
+        "label": "Tanzania, United Republic of"
+    },
+    {
+        "value": "TH",
+        "label": "Thailand"
+    },
+    {
+        "value": "TL",
+        "label": "Timor-Leste"
+    },
+    {
+        "value": "TG",
+        "label": "Togo"
+    },
+    {
+        "value": "TK",
+        "label": "Tokelau"
+    },
+    {
+        "value": "TO",
+        "label": "Tonga"
+    },
+    {
+        "value": "TT",
+        "label": "Trinidad and Tobago"
+    },
+    {
+        "value": "TN",
+        "label": "Tunisia"
+    },
+    {
+        "value": "TR",
+        "label": "Turkey"
+    },
+    {
+        "value": "TM",
+        "label": "Turkmenistan"
+    },
+    {
+        "value": "TC",
+        "label": "Turks and Caicos Islands"
+    },
+    {
+        "value": "TV",
+        "label": "Tuvalu"
+    },
+    {
+        "value": "UG",
+        "label": "Uganda"
+    },
+    {
+        "value": "UA",
+        "label": "Ukraine"
+    },
+    {
+        "value": "AE",
+        "label": "United Arab Emirates"
+    },
+    {
+        "value": "GB",
+        "label": "United Kingdom"
+    },
+    {
+        "value": "US",
+        "label": "United States"
+    },
+    {
+        "value": "UM",
+        "label": "United States Minor Outlying Islands"
+    },
+    {
+        "value": "UY",
+        "label": "Uruguay"
+    },
+    {
+        "value": "UZ",
+        "label": "Uzbekistan"
+    },
+    {
+        "value": "VU",
+        "label": "Vanuatu"
+    },
+    {
+        "value": "VE",
+        "label": "Venezuela"
+    },
+    {
+        "value": "VN",
+        "label": "Vietnam"
+    },
+    {
+        "value": "VG",
+        "label": "Virgin Islands, British"
+    },
+    {
+        "value": "VI",
+        "label": "Virgin Islands, U.S."
+    },
+    {
+        "value": "WF",
+        "label": "Wallis and Futuna"
+    },
+    {
+        "value": "EH",
+        "label": "Western Sahara"
+    },
+    {
+        "value": "YE",
+        "label": "Yemen"
+    },
+    {
+        "value": "ZM",
+        "label": "Zambia"
+    },
+    {
+        "value": "ZW",
+        "label": "Zimbabwe"
+    }
+];
+
+        let option;
+        
+        for (let i=0; i<data.length; i++) {
+            option = document.createElement('option');
+            option.text = data[i].label;
+            option.value = data[i].value;
+            dropdown.add(option);
+        } 
+
+        let stateDropdown = document.getElementById('inputState');
+        stateDropdown.length = 0;
+
+        let defaultOption2 = document.createElement('option');
+        defaultOption2.text = 'Choose State';
+
+        stateDropdown.add(defaultOption2);
+        stateDropdown.selectedIndex = 0;
+       
+        let option2;
+        
+        const data2 = {
+    "AL": "Alabama",
+    "AK": "Alaska",
+    "AS": "American Samoa",
+    "AZ": "Arizona",
+    "AR": "Arkansas",
+    "CA": "California",
+    "CO": "Colorado",
+    "CT": "Connecticut",
+    "DE": "Delaware",
+    "DC": "District Of Columbia",
+    "FM": "Federated States Of Micronesia",
+    "FL": "Florida",
+    "GA": "Georgia",
+    "GU": "Guam",
+    "HI": "Hawaii",
+    "ID": "Idaho",
+    "IL": "Illinois",
+    "IN": "Indiana",
+    "IA": "Iowa",
+    "KS": "Kansas",
+    "KY": "Kentucky",
+    "LA": "Louisiana",
+    "ME": "Maine",
+    "MH": "Marshall Islands",
+    "MD": "Maryland",
+    "MA": "Massachusetts",
+    "MI": "Michigan",
+    "MN": "Minnesota",
+    "MS": "Mississippi",
+    "MO": "Missouri",
+    "MT": "Montana",
+    "NE": "Nebraska",
+    "NV": "Nevada",
+    "NH": "New Hampshire",
+    "NJ": "New Jersey",
+    "NM": "New Mexico",
+    "NY": "New York",
+    "NC": "North Carolina",
+    "ND": "North Dakota",
+    "MP": "Northern Mariana Islands",
+    "OH": "Ohio",
+    "OK": "Oklahoma",
+    "OR": "Oregon",
+    "PW": "Palau",
+    "PA": "Pennsylvania",
+    "PR": "Puerto Rico",
+    "RI": "Rhode Island",
+    "SC": "South Carolina",
+    "SD": "South Dakota",
+    "TN": "Tennessee",
+    "TX": "Texas",
+    "UT": "Utah",
+    "VT": "Vermont",
+    "VI": "Virgin Islands",
+    "VA": "Virginia",
+    "WA": "Washington",
+    "WV": "West Virginia",
+    "WI": "Wisconsin",
+    "WY": "Wyoming"
+}
+
+        for (let prop in data2) {
+            option2 = document.createElement('option');
+            option2.text = data2[prop]
+            option2.value = prop;
+            stateDropdown.add(option2);
+        } 
+        
+    </script>
+
+</body>
+
+</html>

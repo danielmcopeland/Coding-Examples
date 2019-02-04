@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "start-time": "7:00 am",
+        "duration": "30 minutes",
+        "cost": 50.0
+    },
+    {
+        "title": "Mauris ornare lectus at felis tincidunt",
+        "start-time": "9:00 am",
+        "duration": "90 minutes",
+        "cost": 75.0
+    },
+    {
+        "title": "Sed ut sem elementum velit tincidunt tempus",
+        "start-time": "10:30 am",
+        "duration": "30 minutes",
+        "cost": 125.0
+    },
+    {
+        "title": "In hac habitasse platea dictumst",
+        "start-time": "11:30 am",
+        "duration": "60 minutes",
+        "cost": 25.0
+    },
+    {
+        "title": "nteger et purus tempus, pharetra elit non",
+        "start-time": "1:00 pm",
+        "duration": "60 minutes",
+        "cost": 150.0
+    },
+    {
+        "title": "Curabitur mollis, diam at faucibus porttitor",
+        "start-time": "2:00 pm",
+        "duration": "30 minutes",
+        "cost": 200.0
+    }
+]

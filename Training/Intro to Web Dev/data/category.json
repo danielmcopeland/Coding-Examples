@@ -1,0 +1,25 @@
+[
+    {
+        "category": "Food",
+        "children": [
+            "Pizza",
+            "Burger",
+            "Pasta"
+        ]
+    },
+    {
+        "category": "Animal",
+        "children": [
+            "Cat",
+            "Dog",
+            "Snake"
+        ]
+    },
+    {
+        "category": "Weather",
+        "children": [
+            "Sunny",
+            "Cloudy"
+        ]
+    }
+]

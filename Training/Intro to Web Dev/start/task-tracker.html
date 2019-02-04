@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="HTML Specification Documentation">
+    <meta name="author" content="Chris Marfia">
+    <link rel="icon" href="../img/favicon.ico">
+    <title>Intro to Web Development - Part One</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <span class="navbar-brand col-sm-3 col-md-2 mr-0">Intro to Web Development Part Two</span>
+    </nav>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <nav id="outline" class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                            <ul class="nav flex-column ml-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="task-tracker.html">Task Tracker</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="registration.html">Registration</a>
+                                    <ul class="nav flex-column ml-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="registration/2.html">Step 2</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="registration/3.html">Step 3</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="registration/checkout.html">Checkout</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 pt-5">
+                <form class="mb-3">
+                    <div class="form-group">
+                        <label for="exampleInputsearch1">Search</label>
+                        <input type="search" class="form-control" id="exampleInputsearch1" aria-describedby="searchHelp" placeholder="Task Name">
+                        <small id="searchHelp" class="form-text text-muted">Search by title, description, epic, version, etc...</small>
+                    </div>
+                    <button type="button" class="btn btn-primary">Search</button>
+                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#create-task">Create Task</button>
+                </form>
+                <h3>Tasks</h3>
+                <table class="table table-hover table-borderless">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Assignee</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Priority</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <th scope="row"><a href="#">58010</a></th>
+                                <td>Integrate search interface with API</td>
+                                <td>Weissnat, Kiarra DVM</td>
+                                <td><span class="badge badge-pill badge-success">In Progress</span></td>
+                                <td>Highest</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">18055</a></th>
+                                <td>Enable server side pagination</td>
+                                <td>Osinski, Adeline Sr.</td>
+                                <td><span class="badge badge-pill badge-warning">Testing</span></td>
+                                <td>Medium</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">23030</a></th>
+                                <td>Create UI prototype for create task component</td>
+                                <td>Roob, Geoffrey Jr.</td>
+                                <td><span class="badge badge-pill badge-success">In Progress</span></td>
+                                <td>Low</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">6207</a></th>
+                                <td>Add ability to sort task table columns</td>
+                                <td>Bechtelar, Dimitri I</td>
+                                <td><span class="badge badge-pill badge-warning">Testing</span></td>
+                                <td>High</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">11110</a></th>
+                                <td>Add enhanced ability to filter</td>
+                                <td>Weissnat, Kiarra DVM</td>
+                                <td><span class="badge badge-pill badge-success">In Progress</span></td>
+                                <td>Medium</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">19300</a></th>
+                                <td>Switch from Bootstrap 4 to Material Design</td>
+                                <td>Rau, Jeff II</td>
+                                <td><span class="badge badge-pill badge-success">In Progress</span></td>
+                                <td>High</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">48833</a></th>
+                                <td>SPIKE: How to migrate data from the old system</td>
+                                <td>Toy, Pascale V</td>
+                                <td><span class="badge badge-pill badge-primary">Open</span></td>
+                                <td>Low</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">67840</a></th>
+                                <td>Integrate task API with prioritization API </td>
+                                <td>Schuppe, Triston I</td>
+                                <td><span class="badge badge-pill badge-dark">Closed</span></td>
+                                <td>Highest</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">73610</a></th>
+                                <td>Create automated build for continuous integration</td>
+                                <td>Trantow, Dennis I</td>
+                                <td><span class="badge badge-pill badge-success">In Progress</span></td>
+                                <td>High</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">74650</a></th>
+                                <td>Create documentation of task tracker application</td>
+                                <td>Bergnaum, Marisa Jr.</td>
+                                <td><span class="badge badge-pill badge-primary">Open</span></td>
+                                <td>Medium</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">67947</a></th>
+                                <td>Integrate with authentication service to restrict access</td>
+                                <td>Olson, Hayley IV</td>
+                                <td><span class="badge badge-pill badge-success">Reopened</span></td>
+                                <td>Highest</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">12922</a></th>
+                                <td>Minify deployables</td>
+                                <td>Trantow, Dennis I</td>
+                                <td><span class="badge badge-pill badge-primary">Open</span></td>
+                                <td>Lowest</td>
+                            </tr>
+                    </tbody>
+                </table>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                      </li>
+                      <li class="page-item active   "><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
+                <div class="modal fade" id="create-task" tabindex="-1" role="dialog" aria-labelledby="createTaskTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="createTaskTitle">Create Task</h5>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Example select</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Task</option>
+                                            <option>Story</option>
+                                            <option>Bug</option>
+                                            <option>Sub-Task</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="SummaryForm">Summary</label>
+                                        <input type="text" class="form-control" id="SummaryForm rows="3"></input>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="prioritySelect">Priority</label>
+                                        <select class="form-control" id="prioritySelect">
+                                            <option>Highest</option>
+                                            <option>High</option>
+                                            <option>Medium</option>
+                                            <option>Low</option>
+                                            <option>Lowest</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date">Date</label>
+                                        <input type="date" class="form-control" id="date">
+
+                                    </div>
+                                    <!--
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="form-group">
+                                                <label for="dateMonth">Month</label>
+                                                <input type="month" class="form-control" id="dateMonth"></input>
+
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="dateDay">Day</label>
+                                                <input type="day" class="form-control" id="dateDay"></input>
+
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="dateYear">Year</label>
+                                                <input type="year" class="form-control" id="dateYear"></input>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    -->
+                                    <div>
+                                        
+                                    </div>
+                                    <!--
+                                        == Build out form here ==
+                                        
+                                        Issue Type (issueType.json)
+                                        Summary
+                                        Priority (priority.json)
+                                        Due Date
+                                        Reporter (assignee.json)
+                                        Asignee (asisgnee.json)
+                                        Status (status.json)
+                                        Description
+                                        Create Another Task
+                                    -->
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Create</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

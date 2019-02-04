@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="HTML Specification Documentation">
+    <meta name="author" content="Chris Marfia">
+    <link rel="icon" href="../img/favicon.ico">
+    <title>Intro to Web Development - Part One</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <span class="navbar-brand col-sm-3 col-md-2 mr-0">Intro to Web Development Part Two</span>
+    </nav>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <nav id="outline" class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Home</a>
+                            <ul class="nav flex-column ml-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="task-tracker.html">Task Tracker</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="registration.html">Registration</a>
+                                    <ul class="nav flex-column ml-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="registration/2.html">Step 2</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="registration/3.html">Step 3</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="registration/checkout.html">Checkout</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 pt-3">
+                <header>
+                    <h1>Create Blog Post</h1>
+                </header>
+                <form>
+                    <div>
+                        <h5 class="form-group col-sm-3">Post</h5>
+                        <div class="form-group col-sm-3">
+                            <label for="postTitle">Title</label>
+                            <input type="text" placeholder="Title" class="form-control" id="postTitle"></input>
+                        </div>
+                        <div class="form-group col-sm-8">
+                            <label for="postSummary">Summary 2</label>
+                            <input type="text" placeholder="Summary" class="form-control" id="postSummary"></input>
+                        </div>
+                        <div class="form-group col sm-10">
+                            <label for="postBody">Body</label>
+                            <textarea class="form-control" placeholder="Type your post content here" id="postBody" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5>Taxonomy</h5>
+                        <div class="form-group">
+                            <label for="postTitle">Title</label>
+                            <input type="text" placeholder="Title" class="form-control" id="postTitle"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="postSummary">Summary 2</label>
+                            <input type="text" placeholder="Summary" class="form-control" id="postSummary"></input>
+                        </div>
+                    </div>
+                    <!--
+                        == Build out form here ==
+                        
+                        Post
+                            Title
+                            Summary
+                            Body
+                        Taxonomy
+                            Category (category.json, hierarchical, single selection)
+                            Tags (tags.json, multiple, provide UI for adding new tags)
+                        SEO
+                            Page Title
+                            Description
+                            Keywords
+                        Author
+                            Name
+                            Image
+                            Bio
+                        Post Settings
+                            Allow Comments
+                            Is Featured
+                            Publish State (publishState.json)
+
+                        == Actions / Buttons ==
+
+                        Create (make sure to use type="button")
+                        Cancel (make sure to use type="button")
+                    -->
+                </form>
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
