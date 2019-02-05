@@ -1,5 +1,36 @@
-// Your code goes here
-// Hint: use "prompt(promptMessage)" to ask for user input - it will return the value input by the user
-// And "confirm(confirmMessage)" to display a confirmation dialog - it will return true if the user accepts and false if the user cancels
-// Both functions stop execution and wait till the user has entered a value or made a selection
+function generateRandomNumber() {
+    return (Math.round(Math.random()*100));
+};
 
+let firstNum;
+let secondNum;
+let numSum;
+
+function resetNums() {
+    firstNum = generateRandomNumber();
+    secondNum = generateRandomNumber();
+    numSum = firstNum+secondNum;
+    document.getElementById("addingNumber1").placeholder = firstNum;
+    document.getElementById("addingNumber2").placeholder = secondNum;
+}
+
+window.onload = function() {
+    resetNums();    
+}
+
+function submitAnswer() {
+    let userIn = document.getElementById("userInput").value;
+    console.log(userIn);
+    let confirmMessage = `Are you sure ${firstNum}+${secondNum}=${userIn}?`;
+
+    if(confirm(confirmMessage)) {
+        if (userIn == numSum) {
+            console.log('Correct!');
+        }
+        else {
+            console.log(`Incorrect: ${firstNum}+${secondNum}=${numSum}`);
+        }
+    }
+
+    
+}
