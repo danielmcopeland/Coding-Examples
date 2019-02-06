@@ -3,10 +3,25 @@
  * @param statsByYear Object with years as keys, and stats objects as values (which contain the following properties: wins, loses and place)
  */
 function logYearWithMostWins(yearlyStats) {
-    // Your code goes here
+    let yearArray = Object.keys(cardinalStats);
+    console.log(yearArray);
+    let highest = cardinalStats[yearArray[0]];
+    console.log(highest);
+    
+    let highestVal =yearArray[0];
+    for (i=0; i<yearArray.length; i++) {
+        let year = yearArray[i];
+        if(cardinalStats[year]["wins"] > highest["wins"]) {
+            highest = cardinalStats[year];
+            highestVal = year;
+        }
+    }
+    console.log( `The year with most wins was ${highestVal} with ${highest.wins} victories, and the finishing place was ${highest.place}`);
+
+
 }
 
-// Test it with these values
+    // Test it with these values
 var cardinalStats = {
     2015: {
         wins: 100,
@@ -24,7 +39,7 @@ var cardinalStats = {
         place: 1
     },
     2012: {
-        wins: 88,
+        wins: 880,
         loses: 74,
         place: 2
     },
@@ -40,5 +55,5 @@ var cardinalStats = {
     }
 };
 
-logYearWithMostWins(cardinalStats); // Logs "The year with most wins was 2015 with 100 victories, and the finishing place was 1"
+logYearWithMostWins(cardinalStats);// Logs "The year with most wins was 2015 with 100 victories, and the finishing place was 1"
 

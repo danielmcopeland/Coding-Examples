@@ -2,7 +2,38 @@
  * Constructor of a Book object
  */
 // Your code goes here
+class Book {
+    constructor() {
+        this.pages = [];
+    }
+    
+    addPage(page) {
+        this.pages.push(page);
+    }
 
+    countOccurrences(word) {
+        let count = 0;
+        let thesePages = this.pages;
+        thesePages.forEach(page => {
+            count += this.countOccurrencesInPage(page, word);
+        })
+        
+        return count;
+    }
+
+    countOccurrencesInPage(page, word) {
+        let regex = new RegExp('\\b'+word+'\\b', 'gmi');
+        let wordArray = page.match(regex);
+        if (wordArray == null) {
+            wordArray = [];
+        }
+        return wordArray.length;
+    }
+
+    logAllText() {
+        this.pages.forEach(page => console.log(page));
+    }
+}
 
 // Creating an instance
 var lordOfTheRings = new Book();
